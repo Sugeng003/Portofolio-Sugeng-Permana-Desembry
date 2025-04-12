@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+p{
+  font-size: 1rem; /*16px*/
+  line-height: 1.9rem;
+}
+
+a{
+  text-decoration: none;
+} 
+
+
+@media screen and (max-width: 1200px) {
+  .main-container{
+    width: 200px;
+  }
+}
+
+/* nav */
+
+nav { 
+  background-color: white;
+  display: flex;
+  justify-content:space-between; 
+  padding: 1rem 6rem; 
+  flex-direction: row-reverse;
+  margin-bottom: 10%;
+}
+
+nav ul { 
+  display: flex;
+  align-items: center;
+  gap: 3rem; 
+  list-style: none;
+}
+
+nav ul li a { 
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "Heebo", sans-serif;
+  color: #191919;
+  padding: 8px 0; 
+  transition: all;
+  transition-duration: 300ms;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+nav  ul li a:hover { 
+  color: orangered;
+}
+
+/* blog */
+
+.recentall{
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+.recentall h2{
+  font-size: 54px;
+}
+
+.card{
+  background-color: white;
+  gap: 2%;
+  padding: 20px 0 20px 0;
+  margin: 20px 0 20px 0;
+}
+
+.h1kanankiri{
+  margin-bottom: 13px;
+  font-size: 30px;
+}
+
+.card h3{
+  margin-bottom: 13px;
+  font-size: 20px;
+}
+
+.card span{
+  color: #8695A4;
+}
+
+/* footer */
+.footer-content{
+  text-align: center;
+  margin: 10%;
+}
+
+.icons {
+  gap: 3%;
+  margin-bottom: 1rem;
+}
+
+.icons svg {
+  margin: 20px;
+}

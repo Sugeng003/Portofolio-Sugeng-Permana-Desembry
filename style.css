@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+p{
+  font-size: 1rem; /*16px*/
+  line-height: 1.9rem;
+}
+
+a{
+  text-decoration: none;
+} 
+
+
+@media screen and (max-width: 1200px) {
+  .main-container{
+    width: 200px;
+  }
+}
+
+/* nav menu */
+nav { 
+  background-color: white;
+  display: flex;
+  justify-content:space-between; 
+  padding: 1rem 6rem; 
+  flex-direction: row-reverse;
+}
+
+nav ul { 
+  display: flex;
+  align-items: center;
+  gap: 3rem; 
+  list-style: none;
+}
+
+nav ul li a { 
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "Heebo", sans-serif;
+  color: #191919;
+  padding: 8px 0; 
+  transition: all;
+  transition-duration: 300ms;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+nav  ul li a:hover { 
+  color: orangered;
+}
+
+/*hero section */
+#hero {
+  height: 720px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding-left: 20px;
+  margin-left: 100px;
+  justify-items: center;
+}
+
+.hero-name{
+  max-width: 500px;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  color: #21243D;
+}
+
+
+/*button */
+.btn{
+  color: white;
+  background: #FF6464;
+  border: 1.5px solid black;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+  margin-top: 2rem;
+  width: 208px;
+  height: 47px;
+  top: 477px;
+  left: 148px;
+  border-radius: 2px;
+
+  
+}
+
+.btn:hover{
+  box-shadow: #21243D 0px 3px 5px;
+}
+
+/* card */
+
+.recentall{
+  background-color: #EDF7FA;
+  padding: 1rem 2rem;
+}
+
+.headall{
+  display: flex;
+  justify-content:space-between; 
+  margin: 1rem; 
+}
+
+#viewall{
+  color: #00A8CC;
+  font-size: 1rem;
+}
+
+.card{
+  background-color: white;
+  gap: 2%;
+  margin: 3%;
+  padding: 5%;
+}
+
+.h1kanankiri{
+  margin-bottom: 20px;
+}
+
+.card h3{
+  margin-bottom: 20px;
+}
+
+
+.berdua {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Feather works */
+
+.featured-works {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.work-item {
+  display: flex;
+  align-items: flex-start;
+  background: white;
+  border-radius: 10px;
+  margin: 20px 0 20px 0;
+  padding: 20px 0 20px 0;
+}
+
+.work-item img {
+  width: 246px;
+  height: 180px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.work-details {
+  flex: 1;
+}
+
+.year {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 7px 7px 7px 7px;
+  border-radius: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+h3 {
+  margin: 0px 0 20px;
+  font-size: 30px;
+}
+
+.category {
+  color: gray;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.description {
+  font-size: 14px;
+  color: #444;
+  margin-top: 1rem;
+}
+
+.flex{
+  display: flex;
+}
+
+/* foother */
+
+.footer-content{
+  text-align: center;
+  margin: 10%;
+}
+
+.icons {
+  gap: 3%;
+  margin-bottom: 1rem;
+}
+
+.icons svg {
+  margin: 20px;
+}
